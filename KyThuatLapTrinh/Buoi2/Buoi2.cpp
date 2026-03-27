@@ -4,6 +4,17 @@ using namespace std;
 struct Person {
 	int id;
 	string name;
+	friend ostream& operator<<(ostream& os, const person& p) {
+		os << "/t+id:" << p.id << endl;
+		os << "/t+id:" << p.name << endl;
+	}
+	friend istream& operator >>(istream& in, Person& p) {
+		cout << "input person information" << endl;
+		cout << "/t+id:";
+		in >> p.id;
+		cout << "/t name;";
+		return in;
+	}
 
 };
 struct Node{
@@ -25,6 +36,9 @@ struct Linkedlist {
 		}
 	}
 };
+void add(Person x) {
+	Node* newNode=new Node
+}
 int main() {
 	Linkedlist list = { NULL }
 	do {
@@ -48,6 +62,10 @@ int main() {
 			break;
 		}
 		case 2: {
+			Person a;
+			cin >> a;
+			list.add(a);
+			cout << "add a person successfully" << endl;break;
 			AddPerson(list);
 			break;
 		}
