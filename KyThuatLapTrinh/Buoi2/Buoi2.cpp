@@ -4,7 +4,7 @@ using namespace std;
 struct Person {
 	int id;
 	string name;
-	friend ostream& operator<<(ostream& os, const person& p) {
+	friend ostream& operator<<(ostream& os, const Person& p) {
 		os << "/t+id:" << p.id << endl;
 		os << "/t+id:" << p.name << endl;
 	}
