@@ -127,10 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Accout.h" />
+    <ClCompile Include="Account.h" />
     <ClCompile Include="Buoi7.cpp" />
     <ClCompile Include="Linklist.cpp" />
-    <ClCompile Include="Linklist.h" />
+    <ClCompile Include="Linkedlist.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

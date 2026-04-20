@@ -18,10 +18,10 @@
     <ClCompile Include="Buoi7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Accout.h">
+    <ClCompile Include="Account.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="Linklist.h">
+    <ClCompile Include="Linkedlist.h">
       <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="Linklist.cpp">
